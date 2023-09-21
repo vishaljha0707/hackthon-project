@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   align-items: center;
+    justify-content: center;    
+    text-decoration: none;
+   background-image: url(min.jpg);
+   background-color: #efc4f1;
+   background-position: center;
+    background-size: cover;
+    outline: none;
+    
+  
+   
+}
+
+.div1{
+    /*margin:90px;*/
+    height: 80%;
+    width: 80%;
+  /* background-color: rgb(152, 172, 190);*/
+    display: flex;
+   /*background-image: url(11.png);*/
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 10px;
+   
+   /* background: transparent;*/
+}
+
+.left{
+    height: 100%;
+    width: 48%;
+  background-color: rgb(22, 216, 216);
+  background-image: url(tyagi.jpg);
+  background-position: center;
+ 
+  overflow: hidden;
+ /* border-radius: 10px;*/
+ border-bottom-left-radius: 10px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.left-1{
+    height: 100%;
+    width: 500%;
+   /*background-color: blue;*/
+    margin-top: 50px;
+  /*  margin-left: 50px;*/
+    
+}
+
+.right{
+    height: 100%;
+    width: 40%;
+   background-color: rgb(180, 198, 214);
+   
+   border-bottom-right-radius: 10px;
+   border-top-right-radius: 10px;
+
+
+  /* background-image: url(ankit.png);*/
+   background-position: center;
+   background-size: cover;
+   background: linear-gradient(0deg,transparent,rgb(181, 162, 210),rgb(93, 129, 173),rgb(138, 75, 169));
+  
+
+   /* margin-left: 49px;*/
+   
+}
+.right-1{
+    height: 80%;
+    width: 80%;
+   /* background-color: rgb(66, 26, 26);*/
+    margin-top: 100px;
+    margin-left: 50px;
+   /* background:fixed;*/
+    
+    
+}
+.heading{
+    height: 70px;
+    width: 70%;
+  /* background-color: rgb(255, 255, 255);*/
+   font-family: 'Source Sans 3', sans-serif;;
+   
+    margin-left: 50px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.heading h3{
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 1px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+    color: ffa200;
+    font-size: 35PX;
+    font-family: 'Source Sans 3', sans-serif;
+    
+    font-weight: bold;
+    box-shadow: 2px red;   
+    box-shadow: 0 0 15px#2c202e;
+
+
+}
+.no{
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 30px;  
+
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+/* main login page*/
+.main{
+    height: 350px;
+    width: 90%;
+  /* background-color: rgb(255, 255, 255);*/
+    margin-top: 30px;
+
+}
+.email{
+    
+    padding-left: 60px;
+    padding-top: 10px;
+ /*  background-color: rgb(255, 255, 255);*/
+    border-radius: 5px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+   /*background-color: chartreuse;*/
+
+}
+.email:hover{
+   box-shadow: 3px rgb(9, 141, 174);
+   border-radius: 3px;}
+
+.email-1{
+    height: 34px;
+    width: 85%;
+    align-items: center;
+   border-radius: 8px;
+   border-color: rgb(138, 62, 174);
+    outline: none;
+   
+    padding-left: 20px;
+
+   
+      
+}
+/*password*/
+.password{
+    
+    padding-left: 60px;
+    padding-top: 10px;
+   /*background-color: rgb(255, 255, 255);*/
+   border-radius: 5px;
+    
+    margin-top: 25px;
+    outline: none;
+   /*background-color: chartreuse;*/
+
+
+}
+    
+
+.password-1{
+    height: 34px;
+    width: 85%;
+    align-items: center;
+    border-radius: 8px;
+    padding-left: 20px;
+    outline: none;
+    border-color: rgb(83, 8, 149);
+   
+   
+   
+}
+.password:hover{
+    box-shadow: 3px rgb(9, 141, 174);
+    border-radius: 3px;
+}
+.button{
+    margin-left: 45px;
+    margin-top: 10px;
+    height: 60px;
+    width: 90%;
+   /* background-color: rgb(255, 255, 255);*/
+    cursor: pointer;
+    margin-bottom: 100px;
+
+}
+button{
+    background-color: rgba(142, 24, 93, 0.762);
+   margin-left: 20px;
+   margin-top: 30px;
+    height: 38px;
+    width: 75%;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    
+}
+.button :hover{
+    box-shadow: 0 0 15px#a50bc1;
+
+}
