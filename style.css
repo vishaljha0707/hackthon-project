@@ -87,18 +87,23 @@ line-height: 20px; /* 125% */
                 line-height: 20px; /* 125% */
                 }
 #heading #H:hover{
+    cursor: pointer;
     color:#2270e2;
 }
 #heading #A:hover{
+    cursor: pointer;
     color:#2270e2;
 }
 
 #heading #C:hover{
+    cursor: pointer;
     color:#2270e2;
 }
 
 #heading #E:hover{
+    cursor: pointer;
     color:#2270e2;
+    
 }
 
 
@@ -106,7 +111,8 @@ line-height: 20px; /* 125% */
 #btn{
     color: #FFF;
     text-align: center;
-   
+    
+   cursor: default;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
@@ -467,9 +473,268 @@ line-height: 25.6px; /* 160% */
 }
 
 
+/* css page4 ------------------> */
+
+
+#page4{
+top: 100px;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#page4-panel1{
+    margin-bottom: 40px;
+    color: #212121;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 400;
+line-height: 39.6px; /* 90% */
+}
+#page4-panel2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    gap: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+#page4-panel2 #pic1{
+    width: 30%;
+    overflow: hidden;
+    border-radius: 15px;
+    height: 50vh;
+  
+}
+#page4-panel2 #pic1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page4-panel2 #pic2{
+    width: 30%;
+    overflow: hidden;
+    border-radius: 15px;
+    height: 50vh;
+   
+}
+
+#page4-panel2 #pic2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page4-panel2 #pic3{
+    width: 30%;
+    height: 50vh;
+    overflow: hidden;
+    border-radius: 15px;
+   
+}
+
+#page4-panel2 #pic3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 
 
-/* css demo */
+/* css for page 5 -------------------> */
 
+
+#page5{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+#page5-panel1{
+    color: #212121;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 400;
+line-height: 39.6px; /* 90% */
+}
+
+#page5-panel2{
+    margin-top: 50px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+
+#page5-panel2 #div1{
+    width: 25%;
+    height: 60vh;
+    box-shadow: 0px 0px 45px 0px #d3cece;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#page5-panel2 #div1 img{
+    width: 70px;
+    height: 70px;
+    bottom: 20px;
+}
+
+#page5-panel2 #div1 p{
+    color: #4D4D4D;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.6px; /* 160% */
+}
+
+#page5-panel2 #div1 h3{
+    color: #4D4D4D;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.6px; /* 160% */
+}
+#page5-panel2 #div1 #client img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #49A078;
+    bottom: 50px;
+    border-radius: 50%;
+}
+
+
+/* page 6 css ----------> */
+
+
+#page6{
+    width: 100%;
+    height: 60vh;
+    
+    display: flex;
+    background-color: rgb(71, 71, 71);
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+}
+
+#page6 #one{
+    color: #212121;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 39.6px; /* 90% */
+}
+#page6 #two{
+    color:white;
+text-align: center;
+font-family: Poppins;
+
+bottom: 20px;
+font-size: 18px;
+
+
+font-style: normal;
+font-weight: 600;
+line-height: 25.6px; /* 160% */
+}
+#page6 #four{
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+padding: 2px 4px;
+font-weight: 400;
+cursor: pointer;
+line-height: 24px; /* 150% */
+border-radius: 3px;
+
+background: #2270E2;
+}
+
+#page6 #three input{
+    display: flex;
+    width: 300px;
+    max-width: 630px;
+    min-height: 40px;
+    padding: 5.8px 14.8px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 6px;
+border: 1px solid rgba(2, 1, 1, 0.17);
+background: #FAFAFA;
+   
+}
+
+/* css for page no 7 ----------------> */
+
+
+footer{
+    width: 100%;
+    height: 40vh;
+    padding-top: 50px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer #elem1{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+
+footer #elem1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+footer #elem1 img:hover{
+    cursor: pointer;
+    background-color: #4D4D4D;
+
+}
+ footer #elem3{
+    color: #FFF;
+text-align: right;
+font-family: Playfair Display;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+cursor: pointer;
+line-height: 32px; /* 160% */
+ }
