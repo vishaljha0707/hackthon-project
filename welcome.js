@@ -1,4 +1,4 @@
-var start = document.querySelector("#panel1 #btn1")
+
 
 gsap.to("nav",{
 backgroundColor:"#AFEEEE",
@@ -16,10 +16,6 @@ marginBottom:"78px",
 
 })
 
-var login = function(){
- 
-}
-start.addEventListener("onclick",function(){
-  login()
 
-})
+
+
