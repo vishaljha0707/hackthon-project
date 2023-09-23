@@ -17,5 +17,29 @@ marginBottom:"78px",
 })
 
 
-
+document.querySelector("#page6 #four").addEventListener("click",function(){
+  var emailInput = document.getElementById('emailInput');
+  var email = emailInput.value;
+  var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+  if (!emailPattern.test(email)) {
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Please enter a valid email Id!',
+      
+    })
+    return;
+  }
+  else{
+    Swal.fire({
+   
+      icon: 'success',
+      title:'Thanks',
+      text: 'Subscription successful!',
+      showConfirmButton: false,
+      timer: 2000
+    })
+    return;
+  }
+})
 
