@@ -16,6 +16,21 @@ marginBottom:"78px",
 
 })
 
+gsap.to("nav img",{
+  backgroundColor:"#AFEEEE",
+  height:"80px",
+ 
+    duration: 0.5,
+    scrollTrigger:{
+      trigger:"#nav",
+      scroller:"body",
+      start:"top -10%",
+      end:"top -12%",
+      scrub:true
+    }
+  
+})
+
 
 document.querySelector("#page6 #four").addEventListener("click",function(){
   var emailInput = document.getElementById('emailInput');
